@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>equiped lab</title>
+    <!-- code for font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- code for font awesome cdn -->
+    
+    <!-- code for linking css file -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+     <!-- code for linking css file -->
+
+
+
+     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+</head>
+<body>
+    <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "058b3305-a5f6-4cfd-9438-2c6bbdfa6b52", // The ID of this integration.
+          region: "au-syd", // The region your integration is hosted in.
+          serviceInstanceID: "bc867929-c8a6-4282-a73a-be593747739d", // The ID of your service instance.
+          onLoad: async (instance) => { await instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script>
+    <!-- header section -->
+    <header class="header">
+       <a href="#" class="logo"><i class="fa fa-flask" aria-hidden="true"></i>Lab India</a>
+       
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#features">features</a>
+        <a href="#products">products</a>
+        <a href="#categories">categories</a>
+        <a href="#review">review</a>
+        <a href="blogs">blogs</a>
+    </nav>
+
+
+    <div class="icons">
+        <div class="fa fa-bars" id="menu-btn"></div>
+        <div class="fa fa-search" id="search-btn"></div>
+        <div class="fa fa-shopping-cart" id="cart-btn"></div>
+        <div class="fa fa-user" id="login-btn"></div>
+        
+    </div>
+
+    <form class="search-form">
+        <!-- id is use for javascript and placeholder is use for default message -->
+        <input type="search" id="search-box" placeholder="Search here.....">
+        <label for="search-box" class="fa fa-search"></label>
+    </form>
+
+<!-- The <span> tag is an inline container used to mark up a part of a text, or a part of a document. -->
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fa fa-trash"></i>
+            <img src="images/bunsen-burner.jpg " width="120px" height="150px">
+            <div class="content">
+                <h3>bunsen burner</h3>
+                <span class="price">₹349/-</span>
+                <span class="quantity">Qty : 1</span>
+
+            </div>
+        </div>
+
+
+        <div class="box">
+            <i class="fa fa-trash"></i>
+            <img src="images/beaker.jpg " width="120px" height="150px">
+            <div class="content">
+                <h3>beaker</h3>
+                <span class="price">₹349/-</span>
+                <span class="quantity">Qty : 1</span>
+
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fa fa-trash"></i>
+            <img src="images/burette.webp " width="120px" height="150px">
+            <div class="content">
+                <h3>burette</h3>
+                <span class="price">₹349/-</span>
+                <span class="quantity">Qty : 1</span>
+
+            </div>
+        </div>
+
+        <div class="total">Total : ₹1047/-</div>
+        <a href="#" class="btn">Checkout</a>
+        
+    </div>
+
+
+    <form actio="#" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder=" your email" class="box">
+        <input type="password" placeholder=" your password" class="box">
+
+        <p>Forget your password <a href="#">Click here</a></p>
+        <p>DOn't have an account <a href="#">Create now</a></p>
+
+        <input type="submit" value="login now" class="btn">
+
+    </form>
+    
+
+    
+    </header>
+    <!-- header section -->
+
+
+
+    <!-- banner section -->
+
+    <!-- The <section> tag is used to semantically group content within a webpage. -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Elevate <span>Discovery</span> with Cutting-Edge LAB Equipment.</h3>
+            <p>Embark on a journey of discovery with our cutting-edge lab equipment—where precision meets innovation, paving the way for groundbreaking research and extraordinary possibilities.</p>
+
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </section>
+    <!-- banner section -->
+
+
+    <!-- feature section -->
+    <section class="features" id="features">
+        <h1 class="heading"> Our <span>Features</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="images/kids_lab.jpg" width="200px" height="180px">
+                <h3>Precision Redefined, Quality Guaranteed </h3>
+
+                <p>Redefine precision with our cutting-edge lab equipment, empowering research to new heights. Experience guaranteed quality where innovation meets excellence</p>
+
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="box">
+                <img src="images/free_del.jpg" width="200px" height="180px">
+                <h3>Free Delivery</h3>
+
+                <p>Elevate your shopping experience with the allure of free delivery—where convenience meets savings. Unwrap joy without the added cost, because your satisfaction is on us</p>
+
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="box">
+                <img src="images/payment.avif" width="200px" height="160px">
+                <h3>Easy Payment</h3>
+
+                <p>Shop smart, pay easy! Effortless transactions for a seamless shopping experience.</p>
+
+                <a href="#" class="btn">Read More</a>
+            </div>
+            
+
+
+        </div>
+
+
+    </section>
+
+
+    <!-- feature section -->
+
+
+    <!-- our product section -->
+    <section class="products" id="products">
+        <h1 class="heading"> Our <span>products</span></h1>
+
+         <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="images/electric.webp"  width="150px" height="150px">
+                    <h1>Electric Vernier Caliper</h1>
+                    <div class="price">₹450/- - ₹600/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+
+                    </div>
+                    <a href="#" class="btn"> Add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/ammeter.jpg"  width="150px" height="150px">
+                    <h1>Ammeter</h1>
+                    <div class="price">₹450/- - ₹600/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+
+                    </div>
+                    <a href="#" class="btn"> Add to cart</a>
+                </div>
+
+
+
+                <div class="swiper-slide box">
+                    <img src="images/microscope.jpg"  width="150px" height="150px">
+                    <h1>Microscope</h1>
+                    <div class="price">₹14,500/- - ₹20,000/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+
+                    </div>
+                    <a href="#" class="btn"> Add to cart</a>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="images/beaker.jpg"  width="150px" height="150px">
+                    <h1>Beaker</h1>
+                    <div class="price">₹300/- - ₹400/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+
+                    </div>
+                    <a href="#" class="btn"> Add to cart</a>
+                </div>
+            </div>
+         </div>
+
+
+
+
+         <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="images/scale and balances.webp"  width="150px" height="150px">
+                    <h1>Funnel</h1>
+                    <div class="price">₹450/- - ₹600/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+
+                    </div>
+                    <a href="#" class="btn"> Add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/glass test tube.jpg"  width="150px" height="150px">
+                    <h1>Glass test tube</h1>
+                    <div class="price">₹450/- - ₹600/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+
+                    </div>
+                    <a href="#" class="btn"> Add to cart</a>
+                </div>
+
+
+
+                <div class="swiper-slide box">
+                    <img src="images/thermometer.webp"  width="150px" height="150px">
+                    <h1>Micrometer</h1>
+                    <div class="price">₹14,500/- - ₹20,000/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+
+                    </div>
+                    <a href="#" class="btn"> Add to cart</a>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="images/incubator.png"  width="150px" height="150px">
+                    <h1>PH meter</h1>
+                    <div class="price">₹300/- - ₹400/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+
+                    </div>
+                    <a href="#" class="btn"> Add to cart</a>
+                </div>
+            </div>
+         </div>
+    </section>
+
+    <!-- feature section -->
+
+    <section c class="categories" id="categories">
+        <h1 class="heading"> product <span>categories</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="images/chem_lab.jpg" width="150px" height="150px">
+                <h3>chemistry lab</h3>
+                <p>upto 40% Off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="images/phy_lab.jpg" width="150px" height="150px">
+                <h3>physics lab</h3>
+                <p>upto 40% Off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="images/bio_lab.webp" width="150px" height="150px">
+                <h3>biology lab</h3>
+                <p>upto 40% Off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="images/research_lab.webp" width="150px" height="150px">
+                <h3>research lab</h3>
+                <p>upto 40% Off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- our review section -->
+    <section class="review" id="review">
+        <h1 class="heading">Customer's <span>Review</span></h1>
+
+        <div class="swipper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="images/per1.webp" width="200px" height="=200px">
+                    <p>I recently purchased the XYZ Microscope for my research lab, and it has exceeded my expectations. The image clarity is outstanding, and the build quality is top-notch.</p>
+                    <h3>Keyla's rating</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/per2.jpg" width="200px" height="=200px">
+                    <p>I recently purchased the XYZ Microscope for my research lab, and it has exceeded my expectations. The image clarity is outstanding, and the build quality is top-notch.</p>
+                    <h3>Keyla's rating</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/per3.jpg" width="200px" height="=200px">
+                    <p>I recently purchased the XYZ Digital Microscope for our research lab, and I couldn't be more impressed. The clarity and magnification this microscope provides are outstanding. The digital imaging capabilities make capturing and analyzing samples a breeze.</p>
+                    <h3>Keyla's rating</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/per4.jpg" width="200px" height="=200px">
+                    <p>I've been using the LabMaster 5000 Centrifuge in our molecular biology lab for the past six months, and it has truly exceeded our expectations. The compact design is perfect for our limited bench space, yet it doesn't compromise on performance.</p>
+                    <h3>Keyla's rating</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- blogs section -->
+    <section class="blogs" id="blogs">
+        <h1 class="heading">Our <span>blogs</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="images/blog4.jpg" width="200px" height="180px">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa fa-user"></i> By user</a>
+                        <a href="#"><i class="fa fa-calendar"></i> 16th June, 2023</a>
+
+                    </div>
+                    <h3>Driving Scientific Advancements with Reliable Lab Gear.</h3>
+                    <p>Empowering scientific progress, our lab gear redefines precision—driving advancements by delivering unparalleled reliability for researchers at every step of discovery.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/blog2.jpg" width="200px" height="180px">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa fa-user"></i> By user</a>
+                        <a href="#"><i class="fa fa-calendar"></i> 16th June, 2023</a>
+
+                    </div>
+                    <h3>Driving Scientific Advancements with Reliable Lab Gear.</h3>
+                    <p>Empowering scientific progress, our lab gear redefines precision—driving advancements by delivering unparalleled reliability for researchers at every step of discovery.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/blog3.jpg" width="200px" height="180px">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa fa-user"></i> By user</a>
+                        <a href="#"><i class="fa fa-calendar"></i> 16th June, 2023</a>
+
+                    </div>
+                    <h3>Driving Scientific Advancements with Reliable Lab Gear.</h3>
+                    <p>Empowering scientific progress, our lab gear redefines precision—driving advancements by delivering unparalleled reliability for researchers at every step of discovery.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- footer section -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3> Lab for all <i class="fa fa-shopping-cart"></i></h3>
+                <p>Explore, Shop, and Thrive! Elevate your style effortlessly with exclusive deals at Lab INDIA. Your perfect discovery is just a click away</p>
+
+
+                <div class="share">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <h3> Contact Info</h3>
+                <a href="#" class="links"> <i class="fa fa-phone"></i> +919897974158</a>
+                <a href="#" class="links"> <i class="fa fa-phone"></i> +919897974158</a>
+                <a href="#" class="links"> <i class="fa fa-envelope"></i> labindia.com</a>
+                <a href="#" class="links"> <i class="fa fa-map-marker"></i> Uttarpradesh, India</a>
+
+            </div>
+
+            <div class="box">
+                <h3> Quick Links</h3>
+                <a href="#" class="links"> <i class="fa fa-arrow-right"></i> Home</a>
+                <a href="#" class="links"> <i class="fa fa-arrow-right"></i> Featurese</a>
+                <a href="#" class="links"> <i class="fa fa-arrow-right"></i> products</a>
+                <a href="#" class="links"> <i class="fa fa-arrow-right"></i> categories</a>
+                <a href="#" class="links"> <i class="fa fa-arrow-right"></i> Review</a>
+                <a href="#" class="links"> <i class="fa fa-arrow-right"></i> HOme</a>
+                
+
+            </div>
+            <div class="box">
+                <h3> Newsletter</h3>
+                <p>Subscribe for latest updates</p>
+                <input type="email" placeholder="Your Email" class="email">
+                <input type="submit" value="subscribe" class="btn">
+                <img src="images/paymentm.jpg" width="100" height="50" class="payment-img">
+                
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    
+
+    <script src="js/script.js">
+
+    </script>
+</body>
+</html
